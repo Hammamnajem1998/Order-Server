@@ -4,3 +4,11 @@ build a server just to resend requests .But, on the real big applications that h
 feature on the application .
 
 So, we make this server just to give a small exercise of how distributed systems applications realy(and simply) work and communicate . 
+
+
+
+what you want to change ? 
+
+there is one line to change to make the server work on your machine. 
+line 25 make a connection with catalog_server to ask for buy request, change the previous catalog_server URL with 
+your new catalog_server URL .
